@@ -8,7 +8,9 @@ assignees: ''
 ---
 
 **Describe what change you would like**
-<!-- Describe below what you want to happen -->
+<!-- Describe below what change is needed -->
 
-**Additional context**
+**Context**
+Language: (eg 'cn' or 'pt')
+Section: (eg '05-access-control')
 <!-- Add below any other context or screenshots about the change request -->
