@@ -1,3 +1,5 @@
+node_modules/
+
 # # jekyll generated files
 _site
 
