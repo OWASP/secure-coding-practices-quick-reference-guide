@@ -13,7 +13,6 @@ to help development teams quickly understand secure coding practices.
 
 ### Sections of the Guide
 
-* Table of contents
 * Introduction
 * Software Security Principles Overview
 * Secure Coding Practices Checklist
