@@ -1,4 +1,4 @@
-## External References: {#external-references .list-paragraph}
+# Appendix A: External References {#appendix-a-external-references .list-paragraph}
 
 1.  Cited Reference
 

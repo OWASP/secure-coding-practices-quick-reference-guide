@@ -2,5 +2,5 @@
 title: Secure Coding Practices - Quick Reference Guide
 author: Open Web Application Security Project (OWASP)
 rights:  Creative Commons Non-Commercial Share Alike 3.0
-language: cn
+language: zh-CN
 ...
