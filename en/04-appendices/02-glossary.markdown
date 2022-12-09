@@ -1,3 +1,4 @@
+\newpage
 # Appendix B: Glossary {#appendix-b-glossary .list-paragraph}
 
 []{#Abuse_Case .anchor}**Abuse Case:** Describes the intentional and

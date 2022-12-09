@@ -1,3 +1,4 @@
+\newpage
 # Secure Coding Practices Checklist {#secure-coding-practices-checklist .list-paragraph}
 
 ## Input Validation: {#input-validation .list-paragraph}

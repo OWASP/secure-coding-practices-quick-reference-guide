@@ -2,6 +2,7 @@ node_modules/
 
 # pandoc generated files
 *.docx
+*.docx#
 *.epub
 *.mobi
 *.pdf
