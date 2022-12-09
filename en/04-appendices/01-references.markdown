@@ -1,4 +1,5 @@
-## External References: {#external-references .list-paragraph}
+\newpage
+# Appendix A: External References {#appendix-a-external-references .list-paragraph}
 
 1.  Cited Reference
 

@@ -1,5 +1,12 @@
 node_modules/
 
+# pandoc generated files
+*.docx
+*.docx#
+*.epub
+*.mobi
+*.pdf
+
 # # jekyll generated files
 _site
 

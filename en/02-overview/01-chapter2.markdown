@@ -1,3 +1,4 @@
+\newpage
 # Software Security and Risk Principles Overview {#software-security-and-risk-principles-overview .list-paragraph}
 
 Building secure software requires a basic understanding of security
@@ -72,14 +73,14 @@ the software, the vulnerability and the supporting infrastructure, the
 impacts of a successful exploitation can include compromises to any or
 all of the following:
 
--   The software and its associated information
+- The software and its associated information
 
--   The operating systems of the associated servers
+- The operating systems of the associated servers
 
--   The backend database
+- The backend database
 
--   Other applications in a shared environment
+- Other applications in a shared environment
 
--   The user\'s system
+- The user\'s system
 
--   Other software that the user interacts with
+- Other software that the user interacts with
