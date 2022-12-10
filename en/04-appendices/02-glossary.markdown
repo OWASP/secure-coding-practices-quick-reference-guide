@@ -41,9 +41,11 @@ request to another application that the client has an active session
 with. Applications are vulnerable when they use known, or predictable,
 URLs and parameters; and when the browser automatically transmits all
 required session information with each request to the vulnerable
-application. (This is one of the only attacks specifically discussed in
+application.
+
+This is one of the only attacks specifically discussed in
 this document and is only included because the associated vulnerability
-is very common and poorly understood.)
+is very common and poorly understood.
 
 **Cryptographic Practices:** A set of controls that ensure cryptographic
 operations within the application are handled securely.
@@ -135,15 +137,17 @@ of a successful exploitation.
 
 []{#Multi_Factor_Authentication .anchor}**Multi-Factor Authentication:**
 An authentication process that requires the user to produce multiple
-distinct types of credentials. Typically this is based on something they
-have (e.g., smartcard), something they know (e.g., a pin), or something
-they are (e.g., data from a biometric reader).
+distinct types of credentials. Typically this is based on something:
+
+-   they have, eg a smartcard
+-   something they know, eg a PIN
+-   something they are, eg data from a biometric reader
 
 **Output Encoding:** A set of controls addressing the use of encoding to
 ensure data output by the application is safe.
 
-[]{#Parameterized_Queries .anchor}**Parameterized Queries (prepared
-statements):** Keeps the query and data separate through the use of
+[]{#Parameterized_Queries .anchor}**Parameterized Queries / Prepared
+Statements:** Keeps the query and data separate through the use of
 placeholders. The query structure is defined with place holders, the SQL
 statement is sent to the database and prepared, and then the prepared
 statement is combined with the parameter values. The prevents the query

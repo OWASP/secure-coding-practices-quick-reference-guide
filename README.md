@@ -33,16 +33,18 @@ We hope you find the OWASP Secure Coding Practices Quick Reference Guide Project
 useful. Please contribute to this project by adding your comments, questions,
 and suggestions using the [change request][change] form.
 
-The content has been migrated from the orginal `doc` format to markdown, following [pandoc's markdown format][pandoc-format].
-We welcome additions and corrections to the existing documents; create a [pull-request][] and we will review and accept your changes.
+The content has been migrated from the orginal `doc` format to markdown,
+following [pandoc's markdown format][pandoc-format].
+We welcome additions and corrections to the existing documents;
+create a [pull-request][] and we will review and accept your changes.
 
 The Secure Coding Practices Guide is international,
-if you would like to provide additional translations then we can provide the directory framework to support this.
+if you would like to provide additional translations
+then we can provide the directory framework to support this.
 
 #### Related Projects
 
-* [Go programming language secure coding practices guide][owaspgoscp], based on the OWASP
-  Secure Coding Practices
+* [Go programming language secure coding practices guide][owaspgoscp], based on the OWASPSecure Coding Practices
 
 #### Project leaders
 
