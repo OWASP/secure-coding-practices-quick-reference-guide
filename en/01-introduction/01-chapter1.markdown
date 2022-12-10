@@ -42,27 +42,22 @@ practices and resources are recommended:
 
 -   Implement a secure software development lifecycle
 
-    -   [OWASP CLASP
-        Project](http://www.owasp.org/index.php/Category:OWASP_CLASP_Project)
-
 -   Establish secure coding standards
 
-    -   [OWASP Development Guide
-        Project](http://www.owasp.org/index.php/Category:OWASP_Guide_Project)
+    -   [OWASP Development Guide](http://www.owasp.org/index.php/Category:OWASP_Guide_Project) Project
 
 -   Build a re-usable object library
 
-    -   [OWASP Enterprise Security API (ESAPI)
-        Project](http://www.owasp.org/index.php/Category:OWASP_Enterprise_Security_API)
+    -   [OWASP Enterprise Security API][esapi] (ESAPI) Project
 
 -   Verify the effectiveness of security controls
 
-    -   [OWASP Application Security Verification Standard (ASVS)
-        Project)](http://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project)
+    -   [OWASP Application Security Verification Standard][asvs] (ASVS) Project
 
 -   Establish secure outsourced development practices including defining
-    > security requirements and verification methodologies in both the
-    > request for proposal (RFP) and contract.
+    security requirements and verification methodologies in both the
+    request for proposal (RFP) and contract.
 
-    -   [OWASP Legal
-        Project](http://www.owasp.org/index.php/Category:OWASP_Legal_Project)
+
+[asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[esapi]: https://owasp.org/www-project-enterprise-security-api/

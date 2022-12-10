@@ -1,9 +1,9 @@
 \newpage
-# Appendix A: External References {#appendix-a-external-references .list-paragraph}
+# Apéndice A: Referencias externas
 
-## Cited References
+## Referencia citada
 
-- SANS CIS Controls version 8
+-   SANS CIS Controls version 8
 
 > <https://www.sans.org/blog/cis-controls-v8/>
 
@@ -27,11 +27,10 @@
 
 > <http://msdn.microsoft.com/en-us/security/default.aspx>
 
+## Sitios recomendados sobre Seguridad
 
-## Security Advisory Sites
-
-Useful resources to check for known vulnerabilities against supporting
-infrastructure and frameworks
+Fuentes útiles para verificar vulnerabilidades comunes sobre la
+infraestructura soporte y frameworks
 
 > Secunia Citrix Vulnerability List:
 
@@ -43,4 +42,3 @@ infrastructure and frameworks
 
 > Common Vulnerability Enumeration:
 
--   <https://www.cve.org/>
