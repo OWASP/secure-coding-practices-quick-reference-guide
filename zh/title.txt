@@ -1,0 +1,16 @@
+---
+title:
+- type: main
+  text: OWASP 安全编码规范
+- type: subtitle
+  text: 快速参考指南
+creator:
+- role: author
+  text: Open Web Application Security Project (OWASP)
+- role: editor
+  text: Keith Turpin
+rights:  Creative Commons Non-Commercial Share Alike 3.0
+lang: zh-CN
+version: 2.0.1
+date: December 2022
+...

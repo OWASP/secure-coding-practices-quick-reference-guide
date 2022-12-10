@@ -1,0 +1,9 @@
+---
+title: Melhores Práticas de Programação Segura OWASP Guia de Referência Rápida
+author: Open Web Application Security Project (OWASP)
+rights:  Creative Commons Non-Commercial Share Alike 3.0
+language: pt-PT
+geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2cm"
+version: 2.0.1
+date: December 2022
+...

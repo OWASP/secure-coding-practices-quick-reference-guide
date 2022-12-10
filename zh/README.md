@@ -1,12 +1,12 @@
-# English language (en-US) version
+# Chinese language (zh-CN) version
 
 We appreciate all kinds of [suggestions and corrections][issues] on this translation
 of the Secure Coding Practices Quick Reference Guide
 
-Create the PDF document from directory `en`:
+Create the PDF document from directory `zh`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.en-us.pdf title.pdf.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.pdf title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
@@ -19,7 +19,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.en-us.pdf title.pdf.txt \
 Similarly create the EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.en-us.epub title.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.epub title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \

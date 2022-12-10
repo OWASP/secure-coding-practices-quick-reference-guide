@@ -1,4 +1,4 @@
-# Korean lanugauge (KR) version
+# Korean language (ko-KR) version
 
 We appreciate all kinds of [suggestions and corrections][issues] on this translation
 of the Secure Coding Practices Quick Reference Guide
@@ -6,7 +6,7 @@ of the Secure Coding Practices Quick Reference Guide
 Create the PDF document from directory `ko`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.ko.pdf title.pdf.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.ko-kr.pdf title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
@@ -19,7 +19,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.ko.pdf title.pdf.txt \
 Similarly create the EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.ko.epub title.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.ko-kr.epub title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
@@ -30,5 +30,6 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.ko.epub title.txt \
 ```
 
 There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.
+For example with MacOS the command `brew install basictex` can be used.
 
 [issues]: https://github.com/OWASP/www-project-secure-coding-practices-quick-reference-guide/issues/new

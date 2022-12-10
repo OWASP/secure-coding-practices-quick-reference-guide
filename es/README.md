@@ -1,4 +1,4 @@
-# Traducción al español (Uruguay)
+# Traducción al español (es-UR)
 
 Agradezcamos todo tipo de [sugerencias y correcciones][issues] sobre este traducción
 del Secure Coding Practices Quick Reference Guide
@@ -6,7 +6,7 @@ del Secure Coding Practices Quick Reference Guide
 Para PDF desde el directorio `es`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es.pdf title.pdf.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.pdf title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 00-front-toc/03-credits.markdown \
@@ -20,7 +20,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es.pdf title.pdf.txt \
 Y para EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es.epub title.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.epub title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 00-front-toc/03-credits.markdown \
@@ -32,5 +32,6 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es.epub title.txt \
 ```
 
 There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.
+For example with MacOS the command `brew install basictex` can be used.
 
 [issues]: https://github.com/OWASP/www-project-secure-coding-practices-quick-reference-guide/issues/new
