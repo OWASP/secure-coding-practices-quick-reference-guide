@@ -1,15 +1,14 @@
-# Traducción al español (es-UR)
+# English language (en-US) version
 
-Agradezcamos todo tipo de [sugerencias y correcciones][issues] sobre este traducción
-del Secure Coding Practices Quick Reference Guide
+We appreciate all kinds of [suggestions and corrections][issues] on this translation
+of the Secure Coding Practices Quick Reference Guide
 
-Para PDF desde el directorio `es`:
+Create the PDF document from directory `en/us`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.pdf title.pdf.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.en-us.pdf title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
-00-front-toc/03-credits.markdown \
 01-introduction/01-chapter1.markdown \
 02-overview/01-chapter2.markdown \
 03-checklist/01-chapter3.markdown \
@@ -17,13 +16,12 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.pdf title.pdf.txt \
 04-appendices/02-glossary.markdown
 ```
 
-Y para EBook:
+Similarly create the EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.epub title.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.en-us.epub title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
-00-front-toc/03-credits.markdown \
 01-introduction/01-chapter1.markdown \
 02-overview/01-chapter2.markdown \
 03-checklist/01-chapter3.markdown \

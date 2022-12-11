@@ -3,7 +3,7 @@
 We appreciate all kinds of [suggestions and corrections][issues] on this translation
 of the Secure Coding Practices Quick Reference Guide
 
-Create the PDF document from directory `ko`:
+Create the PDF document from directory `ko/kr`:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.ko-kr.pdf title.pdf.txt \
