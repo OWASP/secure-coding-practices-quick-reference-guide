@@ -14,7 +14,8 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-pt.pdf \
 02-overview/01-chapter2.markdown \
 03-checklist/01-chapter3.markdown \
 04-appendices/01-references.markdown \
-04-appendices/02-glossary.markdown
+04-appendices/02-glossary.markdown \
+04-appendices/03-footnotes.markdown
 ```
 
 Similarly create the EBook:
@@ -28,7 +29,8 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-pt.epub \
 02-overview/01-chapter2.markdown \
 03-checklist/01-chapter3.markdown \
 04-appendices/01-references.markdown \
-04-appendices/02-glossary.markdown
+04-appendices/02-glossary.markdown \
+04-appendices/03-footnotes.markdown
 ```
 
 There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.

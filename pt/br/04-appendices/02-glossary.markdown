@@ -156,7 +156,7 @@ o software trata o armazenamento das informações de modo seguro.
 **Realizar Log dos Eventos:** Esta operação deve incluir os seguintes
 requisitos:
 
-1.  Utilizar um timestamp[^9] proveniente de um sistema
+1.  Utilizar um timestamp[^401] proveniente de um sistema
     confiável
 
 2.  Classificar a severidade para cada evento
@@ -192,7 +192,7 @@ realize o registro de log dos eventos de modo apropriado.
 
 **Tratamento dos Dados:** É o processo de tornar seguros os dados
 potencialmente prejudiciais através do processo de remoção,
-substituição, codificação ou *escaping*[^10] dos
+substituição, codificação ou *escaping*[^402] dos
 caracteres.
 
 **Validação de Entrada de Dados:** Conjunto de controles para verificar
@@ -203,15 +203,3 @@ maliciosos.
 
 **Vulnerabilidade:** É uma fragilidade que torna um sistema suscetível a
 um ataque ou a um dano.
-
-[^9] NT: Conjunto de caracteres que representa, de forma não ambígua,
-    o momento do registro da ocorrência de um evento em um sistema.
-    Para mais informações, ver a RFC 3339 e a norma ISO 8601,
-    Data elements and interchange formats –- Information interchange –-
-    Representation of dates and times
-
-[^10] NT: Nesse contexto é a representação de
-    caracteres especiais por conjuntos específicos de caracteres. Como
-    exemplo, tem-se a substituição do caractere "&" pela entidade HTML
-    equivalente "&amp;"
-

@@ -15,7 +15,7 @@ falha de segurança.
 
 Proteger os recursos críticos das aplicações tem se tornado cada vez
 mais importante, pois o foco dos atacantes mudou para a camada de
-aplicação. Um estudo da SANS em 2009[^1] descobriu que os ataques
+aplicação. Um estudo da SANS em 2009[^101] descobriu que os ataques
 contra aplicações Web constituem mais de 60% das tentativas de ataque
 observados na Internet.
 
@@ -52,7 +52,7 @@ práticas gerais e referências são recomendadas:
     -   [[OWASP Development Guide](http://www.owasp.org/index.php/Category:OWASP_Guide_Project) Project
 
 -   Construir uma biblioteca reutilizável ou fazer uso de uma biblioteca
-    de segurança[^1]
+    de segurança[^101]
 
     -   [OWASP Enterprise Security API][esapi] (ESAPI) Project
 
@@ -68,6 +68,3 @@ práticas gerais e referências são recomendadas:
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
-
-[^1] NT: Complemento adicionado pelo tradutor
-

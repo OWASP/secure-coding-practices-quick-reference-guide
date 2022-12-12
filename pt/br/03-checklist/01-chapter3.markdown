@@ -31,7 +31,7 @@
     processamento, incluindo todos os parâmetros, campos de formulário,
     conteúdos das URLs e cabeçalhos HTTP, como, por exemplo, os nomes e
     os valores dos Cookies. Certificar-se, também, de incluir mecanismos
-    automáticos de *postback*[^2] nos blocos de código
+    automáticos de *postback*[^301] nos blocos de código
     JavaScript, Flash ou qualquer outro código embutido
 
 - [ ]   Verificar se os valores de cabeçalho, tanto das requisições, como
@@ -72,7 +72,7 @@
         alteram caminhos. Nos casos de conjunto de caracteres que usem a extensão UTF-8, o sistema deve
         utilizar representações alternativas como: %c0%ae%c0%ae/. A
         *canonicalização* deve ser utilizada para resolver problemas de
-        codificação dupla (double encoding[^3] ou outras formas
+        codificação dupla (double encoding[^302] ou outras formas
         de ataques por ofuscação
 
 ## Codificação de Dados de Saída
@@ -127,7 +127,7 @@
 - [ ]   Se a aplicação gerenciar um repositório de credenciais, esta deverá
     garantir que as senhas são armazenadas na base de dados somente sob
     a forma de resumo/*hash* da senha na forma de *one-way salted
-    hashes*[^4] e que a tabela/arquivo que armazena as
+    hashes*[^303] e que a tabela/arquivo que armazena as
     senhas e as próprias chaves são manipuladas apenas pela aplicação.
     Não utilizar o algoritmo de hash MD5, sempre que esse puder ser
     evitado
@@ -234,7 +234,7 @@
     operações críticas
 
 - [ ]   Utilizar *autenticação de múltiplos fatores* (utilizando
-    simultaneamente token, senha, biometria etc.[^5]) para
+    simultaneamente token, senha, biometria etc.[^304]) para
     contas altamente sensíveis ou de alto valor transacional
 
 - [ ]   Caso utilize código de terceiros para realizar a autenticação,
@@ -619,9 +619,9 @@
     de produção
 
 - [ ]   Prevenir a divulgação da estrutura de diretórios impedindo que
-    robôs[^6] de busca façam indexação de arquivos
+    robôs[^305] de busca façam indexação de arquivos
     sensíveis, através da configuração do arquivo
-    "robots.txt"[^7]. Os diretórios que não devem ser
+    "robots.txt"[^306]. Os diretórios que não devem ser
     acessados por estes indexadores devem ser colocados em um diretório
     isolado. Assim, apenas é necessário negar o acesso ao diretório pai
     definido no arquivo "robots.txt", evitando ter que negar o acesso a
@@ -674,7 +674,7 @@
 - [ ]   Certificar-se de que as variáveis são fortemente tipadas
 
 - [ ]   Realizar a codificação (escaping) de meta caracteres em instruções
-    SQL[^8]
+    SQL[^307]
 
 - [ ]   A aplicação deve usar o menor nível possível de privilégios ao
     acessar o banco de dados
@@ -846,24 +846,3 @@
     clientes façam a verificação da assinatura após descarregarem as
     atualizações. Usar canais criptografados para transferir o código a
     partir do host do servidor
-
-[^2] NT: http://pt.wikipedia.org/wiki/Postback
-
-[^3] NT: http://www.owasp.org/index.php/Double_Encoding
-
-[^4] NT: one-way salted hash é um algoritmo de hash gerado com o auxílio
-    de valores aleatórios ou pré-definidos que compõem o parâmetro da função de geração da hash
-    e dificulta o processo de quebra da hash através de ataques de dicionário.
-    Mais informações sobre o assunto em: http://en.wikipedia.org/wiki/Salt_(cryptography)
-
-[^5] NT: Complementação explicativa fornecida pelo tradutor.
-
-[^6] NT: Robôs são programas de computador que percorrem automaticamente
-    as páginas da Internet em busca de documentos, com o propósito de indexá-los,
-    validá-los ou monitorar alterações de conteúdo. http://pt.wikipedia.org/wiki/Robots.txt
-
-[^7] NT: O link abaixo mostra exemplos de como configurar o arquivo robots.txt.
-    http://www.mundoseo.com.br/seo-tecnico/robotstxt-configuracao-seu-site/
-
-[^8] NT:
-    [^SQL_Injection_Prevention_Cheat_Sheet](http://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
