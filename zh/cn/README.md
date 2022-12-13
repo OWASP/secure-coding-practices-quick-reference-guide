@@ -6,7 +6,7 @@ of the Secure Coding Practices Quick Reference Guide
 Create the PDF document from directory `zh/cn`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.pdf \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-CN.pdf \
 --pdf-engine=xelatex -r markdown title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
@@ -20,7 +20,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.pdf \
 Similarly create the EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.epub \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-CN.epub \
 --pdf-engine=xelatex -r markdown title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
@@ -33,5 +33,6 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.epub \
 
 There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.
 For example with MacOS the command `brew install basictex` can be used.
+Also make sure font 'Songti SC Light' is installed when creating the PDF and eBook.
 
 [issues]: https://github.com/OWASP/www-project-secure-coding-practices-quick-reference-guide/issues/new

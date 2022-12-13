@@ -15,7 +15,7 @@ falha de segurança.
 
 Proteger os recursos críticos das aplicações tem-se tornado cada vez
 mais importante, pois o foco dos atacantes mudou para a camada de
-aplicação. Um estudo da SANS em 2009[^100] descobriu que os ataques
+aplicação. Um estudo da SANS em 2009[^101] descobriu que os ataques
 contra aplicações Web constituem mais de 60% do total das tentativas de
 ataque observadas na Internet.
 

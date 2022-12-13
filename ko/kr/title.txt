@@ -14,6 +14,6 @@ version: 2.0.1
 date: 2022 년 12 월
 rights:  Creative Commons Non-Commercial Share Alike 3.0
 geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
-mainfont: PCMyungjo Regular
+mainfont: Nanum Myeongjo
 fontsize: 12pt
 ...

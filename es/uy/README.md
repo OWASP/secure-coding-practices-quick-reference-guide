@@ -6,7 +6,7 @@ del Secure Coding Practices Quick Reference Guide
 Para PDF desde el directorio `es/uy`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.pdf title.pdf.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.pdf title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 00-front-toc/03-credits.markdown \
@@ -20,7 +20,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.pdf title.pdf.txt \
 Y para EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.es-uy.epub title.txt \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.epub title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 00-front-toc/03-credits.markdown \

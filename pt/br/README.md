@@ -6,7 +6,7 @@ of the Secure Coding Practices Quick Reference Guide
 Create the PDF document from directory `pt/br`:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-br.pdf \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-BR.pdf \
 -r markdown+footnotes title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
@@ -22,7 +22,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-br.pdf \
 Similarly create the EBook:
 
 ```
-pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-br.epub \
+pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-BR.epub \
 -r markdown+footnotes title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
