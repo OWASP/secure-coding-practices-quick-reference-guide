@@ -1,5 +1,5 @@
 \newpage
-**Sumário**
+# Sumário {#table-of-contents .TOC-Heading}
 
 [Introdução](#introdução)
 

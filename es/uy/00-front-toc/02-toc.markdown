@@ -1,4 +1,5 @@
-#  Índice
+\newpage
+#  Índice {#table-of-contents .TOC-Heading}
 
 [Introducción](#introducción)
 

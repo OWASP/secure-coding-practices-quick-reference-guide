@@ -65,3 +65,6 @@ seguintes práticas gerais e referências são recomendadas:
     requisitos de segurança e metodologias de verificação tanto para
     os requisitos das propostas, como para o contrato a ser firmado
     entre as partes.
+
+[asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[esapi]: https://owasp.org/www-project-enterprise-security-api/

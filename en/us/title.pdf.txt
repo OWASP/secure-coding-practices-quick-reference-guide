@@ -1,4 +1,7 @@
 ---
+title: Secure Coding Practices
+subtitle: Quick Reference Guide
+author: Open Web Application Security Project (OWASP)
 rights:  Creative Commons Non-Commercial Share Alike 3.0
 lang: en-US
 geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2cm"

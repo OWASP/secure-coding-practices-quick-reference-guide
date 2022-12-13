@@ -14,7 +14,7 @@ seguridad.
 
 Asegurar recursos críticos de software se ha vuelto más importante que
 nunca debido a que el foco de los atacantes se ha desplazado hacia la
-capa de aplicación. Un estudio en 2009 de la SANS^1^ determinó que los
+capa de aplicación. Un estudio en 2009 de la SANS determinó que los
 ataques contra aplicaciones web constituyen más del 60% del total de
 intentos de ataque observados en la Internet.
 

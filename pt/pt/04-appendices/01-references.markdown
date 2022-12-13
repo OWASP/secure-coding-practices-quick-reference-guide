@@ -31,7 +31,6 @@
 
 Estes links podem ser úteis para verificar e garantir que a infraestrutura
 de apoio e os frameworks não possuem vulnerabilidades conhecidas:
-:
 
 > Secunia Citrix Vulnerability List:
 

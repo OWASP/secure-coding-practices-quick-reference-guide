@@ -12,7 +12,7 @@ not to mention the costs that may be associated with a security breach.
 
 Securing critical software resources is more important than ever as the
 focus of attackers has steadily moved toward the application layer. A
-2009 SANS study^1^ found that attacks against web applications
+2009 SANS study found that attacks against web applications
 constitute more than 60% of the total attack attempts observed on the
 Internet.
 
