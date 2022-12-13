@@ -7,7 +7,7 @@ Create the PDF document from directory `ko/kr`:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.ko-kr.pdf title.pdf.txt \
-00-front-toc/01-front.markdown \
+--pdf-engine=xelatex -r markdown 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
 02-overview/01-chapter2.markdown \
@@ -20,7 +20,7 @@ Similarly create the EBook:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.ko-kr.epub title.txt \
-00-front-toc/01-front.markdown \
+--pdf-engine=xelatex -r markdown 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
 02-overview/01-chapter2.markdown \

@@ -4,7 +4,7 @@ OWASP 安全编码规范快速参考指南
 
 # 版权与许可
 
-版权所有：2010年OWASP基金会©
+版权所有：2012년OWASP基金会©
 
 本文档基于 Creative Commons Attribution ShareAlike3.0 license 发布。任何重用或发行，  
 都必须向他人明确该文档的许可条款。

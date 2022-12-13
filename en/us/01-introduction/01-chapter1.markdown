@@ -44,7 +44,7 @@ practices and resources are recommended:
 
 -   Establish secure coding standards
 
-    -   [OWASP Development Guide](http://www.owasp.org/index.php/Category:OWASP_Guide_Project) Project
+    -   [OWASP Development Guide][guide] Project
 
 -   Build a re-usable object library
 
@@ -61,3 +61,4 @@ practices and resources are recommended:
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
+[guide]: http://www.owasp.org/index.php/Category:OWASP_Guide_Project

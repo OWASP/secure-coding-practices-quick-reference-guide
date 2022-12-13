@@ -49,7 +49,7 @@ seguintes práticas gerais e referências são recomendadas:
 
 -   Estabelecer padrões de programação segura
 
-    -   [[OWASP Development Guide](http://www.owasp.org/index.php/Category:OWASP_Guide_Project) Project
+    -   [OWASP Development Guide][guide] Project
 
 -   Construir uma biblioteca reutilizável ou fazer uso de uma biblioteca
     de segurança[^101]
@@ -68,3 +68,4 @@ seguintes práticas gerais e referências são recomendadas:
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
+[guide]: http://www.owasp.org/index.php/Category:OWASP_Guide_Project

@@ -31,7 +31,7 @@
 
 -   建立安全编码标准。
 
-    -   [[OWASP 开发指南项目](http://www.owasp.org/index.php/Category:OWASP_Guide_Project)
+    -   [OWASP 开发指南项目][guide]
 
 -   建立一个可重用的对象库文件。
 
@@ -45,3 +45,4 @@
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
+[guide]: http://www.owasp.org/index.php/Category:OWASP_Guide_Project

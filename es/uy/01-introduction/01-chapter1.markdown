@@ -49,7 +49,7 @@ seguro, sin embargo, se recomiendan las siguientes prácticas y recursos:
 
 -   Establecer estándares de codificación segura.
 
-    -   [[OWASP Development Guide](http://www.owasp.org/index.php/Category:OWASP_Guide_Project) Project
+    -   [OWASP Development Guide][guide] Project
 
 -   Construir una biblioteca de objetos reutilizable.
 
@@ -66,3 +66,4 @@ seguro, sin embargo, se recomiendan las siguientes prácticas y recursos:
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
+[guide]: http://www.owasp.org/index.php/Category:OWASP_Guide_Project
