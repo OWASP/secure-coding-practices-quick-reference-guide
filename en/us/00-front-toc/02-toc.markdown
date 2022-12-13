@@ -1,3 +1,4 @@
+\newpage
 # Table of Contents {#table-of-contents .TOC-Heading}
 
 [Introduction](#introduction)

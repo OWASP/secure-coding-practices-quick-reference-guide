@@ -1,4 +1,5 @@
 ---
+lang: en-US
 title:
 - type: main
   text: Secure Coding Practices
@@ -9,8 +10,7 @@ creator:
   text: Open Web Application Security Project (OWASP)
 - role: editor
   text: Keith Turpin
-rights:  Creative Commons Non-Commercial Share Alike 3.0
-lang: en-US
 version: 2.0.1
 date: December 2022
+rights:  Creative Commons Non-Commercial Share Alike 3.0
 ...

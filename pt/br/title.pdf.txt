@@ -1,9 +1,18 @@
 ---
-
+language: pt-BR
 title: Melhores Práticas de Codificação Segura OWASP
 subtitle: Guia de Referência Rápida
 author: Open Web Application Security Project (OWASP)
+version: 2.0.1
+date: dezembro de 2022
 rights:  Creative Commons Non-Commercial Share Alike 3.0
-language: pt-BR
 geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2.5cm"
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyhead[RE,RO]{Dezembro 2022}
+    \fancyfoot{} 
+    \fancyfoot[LE,LO]{Versão 2.0.1}
+    \fancyfoot[RE,RO]{\thepage}
 ...

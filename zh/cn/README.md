@@ -7,7 +7,7 @@ Create the PDF document from directory `zh/cn`:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.pdf \
---pdf-engine=xelatex -r markdown+smart title.pdf.txt \
+--pdf-engine=xelatex -r markdown title.pdf.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
@@ -21,7 +21,7 @@ Similarly create the EBook:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-cn.epub \
---pdf-engine=xelatex title.txt \
+--pdf-engine=xelatex -r markdown title.txt \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \

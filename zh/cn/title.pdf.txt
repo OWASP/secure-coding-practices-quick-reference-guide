@@ -1,12 +1,19 @@
 ---
+language: zh-CN
 title: OWASP 安全编码规范
 subtitle: 快速参考指南
 author: Open Web Application Security Project (OWASP)
+version: 中文版 2.0.1
+date: 2022 年 12 月
 rights:  Creative Commons Non-Commercial Share Alike 3.0
-language: zh-CN
+geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
 mainfont: Songti SC Light
 fontsize: 12pt
-geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
-version: 2.0.1
-date: December 2022
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{} 
+    \fancyfoot[LE,LO]{v2.0.1}
+    \fancyfoot[RE,RO]{\thepage}
 ...

@@ -1,10 +1,18 @@
 ---
+lang: en-US
 title: Secure Coding Practices
 subtitle: Quick Reference Guide
 author: Open Web Application Security Project (OWASP)
-rights:  Creative Commons Non-Commercial Share Alike 3.0
-lang: en-US
-geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2cm"
 version: 2.0.1
 date: December 2022
+rights:  Creative Commons Non-Commercial Share Alike 3.0
+geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2cm"
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyhead[RE,RO]{December 2022}
+    \fancyfoot{} 
+    \fancyfoot[LE,LO]{Version 2.0.1}
+    \fancyfoot[RE,RO]{\thepage}
 ...

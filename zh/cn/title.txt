@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title:
 - type: main
   text: OWASP 安全编码规范
@@ -9,11 +10,10 @@ creator:
   text: Open Web Application Security Project (OWASP)
 - role: editor
   text: Keith Turpin
+version: 中文版 2.0.1
+date: 2022 年 12 月
 rights:  Creative Commons Non-Commercial Share Alike 3.0
-lang: zh-CN
+geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
 mainfont: Songti SC Light
 fontsize: 12pt
-geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
-version: 2.0.1
-date: December 2022
 ...

@@ -1,10 +1,6 @@
 ![](../../images/OWASP-logo.jpg){width="3.0in"}
 
-# OWASP Secure Coding Practices #
-
-## Quick Reference Guide ##
-
-#### Copyright and License ####
+**Copyright and License**
 
 Copyright © 2010-2022 The OWASP Foundation.
 
