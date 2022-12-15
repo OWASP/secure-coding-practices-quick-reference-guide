@@ -1,5 +1,8 @@
 node_modules/
 
+# ignore markdown (unless it is markdown for pandoc)
+*.md
+
 # pandoc generated files
 *.docx
 *.docx#
