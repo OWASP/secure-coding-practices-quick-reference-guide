@@ -1,4 +1,4 @@
-![](../../images/OWASP-logo.jpg){width="3.0in"}
+![](../../../images/OWASP-logo.jpg){width="3.0in"}
 
 OWASP 시큐어 코딩 규칙
 

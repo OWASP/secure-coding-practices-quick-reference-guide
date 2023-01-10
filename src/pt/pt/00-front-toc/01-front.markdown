@@ -1,4 +1,4 @@
-![](../../images/OWASP-logo.jpg){width="3.0in"}
+![](../../../images/OWASP-logo.jpg){width="3.0in"}
 
 
 ***Copyright and License***
