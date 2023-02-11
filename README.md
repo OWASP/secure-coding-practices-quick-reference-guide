@@ -12,11 +12,11 @@ to help development teams quickly understand secure coding practices.
 
 Downloads for the [latest version][latest] are available for:
 
-- English (eng-US)
-- español (spa-UY)
+- English (en-US)
+- español (es-UY)
 - 한국어 (ko-KO)
-- português (por-BR)
-- 中文 (zho-CN) 
+- português (pt-BR & pt-PT)
+- 中文 (zh-CN) 
 
 The guide is maintained by [OWASP][owasp]
 and refer to the [project page][project] for further information.
