@@ -1,9 +1,9 @@
 # Traducción al español (es-UR)
 
-Agradezcamos todo tipo de [sugerencias y correcciones][issues] sobre este traducción
-del Secure Coding Practices Quick Reference Guide
+Agradecemos todo tipo de [sugerencias y correcciones][issues] sobre esta traducción
+de la Guía Rápida de Prácticas de Codificación Segura 
 
-Para PDF desde el directorio `es/uy`:
+Para generar el PDF, posicionado en el directorio `es/uy`:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.pdf title.pdf.txt \
@@ -17,7 +17,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.pdf title.pdf.txt \
 04-appendices/02-glossary.markdown
 ```
 
-Y para EBook:
+De forma similar, para generar el EBook:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.epub title.txt \
@@ -31,7 +31,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.epub title.txt \
 04-appendices/02-glossary.markdown
 ```
 
-There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.
-For example with MacOS the command `brew install basictex` can be used.
+Es necesario poseer instalada una dependencia *tex para la correcta generación del formato PDF.
+Por ejemplo, en MacOS puede ser utilizado el comando `brew install basictex`.
 
 [issues]: https://github.com/OWASP/www-project-secure-coding-practices-quick-reference-guide/issues/new
