@@ -9,10 +9,4 @@ hispana.
 Participaron de esta traducción:
 
 *  Canedo,Gerardo
-*  Flores,Mauro
-*  Hill,Alberto
-*  Martinez,Mateo
-*  Papaleo,Mauricio
-*  Soarez,Nicolás
-*  Targetta, Cecilia
 

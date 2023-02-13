@@ -61,4 +61,4 @@ practices and resources are recommended:
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
-[guide]: http://www.owasp.org/index.php/Category:OWASP_Guide_Project
+[guide]: https://owasp.org/www-project-developer-guide/
