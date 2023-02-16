@@ -6,7 +6,7 @@ OWASP 시큐어 코딩 규칙
 
 ## 저작권 및 라이센스
 
-Copyright © 2010-2022 The OWASP Foundation.
+Copyright © 2010-2023 The OWASP Foundation.
 
 한글판 Copyright © 2011 The OWASP Korea Chapter.
 
