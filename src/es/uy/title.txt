@@ -12,5 +12,5 @@ creator:
   text: Keith Turpin
 version: 2.0.1
 date: Diciembre 2022
-rights:  Creative Commons Non-Commercial Share Alike 3.0
+rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)
 ...
