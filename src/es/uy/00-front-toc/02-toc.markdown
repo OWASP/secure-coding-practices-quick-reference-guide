@@ -1,41 +1,40 @@
 \newpage
 #  Índice {#table-of-contents .TOC-Heading}
 
-[Introducción](#introducción)
+[Introducción](#introduction)
 
-[Visión General de la Seguridad en el Software y sus Principales Riesgos](#visión-general-de-la-seguridad-en-el-software-y-sus-principales-riesgos)
+[Visión General de la Seguridad en el Software y sus Principales Riesgos](#software-security-and-risk-principles-overview)
 
-[Lista de Verificación de Prácticas de Codificación Segura](#lista-de-verificación-de-prácticas-de-codificación-segura)
+[Lista de Verificación de Prácticas de Codificación Segura](#secure-coding-practices-checklist)
 
-[Validación de entradas](#validación-de-entradas)
+[Validación de entradas](#input-validation)
 
-[Codificación de salidas](#codificación-de-salidas)
+[Codificación de salidas](#output-encoding)
 
-[Administración de autenticación y contraseñas](#administración-de-autenticación-y-contraseñas)
+[Gestión de autenticación y contraseñas](#authentication-and-password-management)
 
-[Administración de sesiones](#administración-de-sesiones)
+[Gestión de sesiones](#session-management)
 
-[Control de Acceso](#control-de-acceso)
+[Control de acceso](#access-control)
 
-[Prácticas Critpográficas](#prácticas-critpográficas)
+[Prácticas critpográficas](#cryptographic-practices)
 
-[Manejo de errores y Logs](#manejo-de-errores-y-logs)
+[Gestión de errores y registros (logs)](#error-handling-and-logging)
 
-[Protección de datos](#protección-de-datos)
+[Protección de datos](#data-protection)
 
-[Seguridad en las comunicaciones](#seguridad-en-las-comunicaciones)
+[Seguridad en las comunicaciones](#communication-security)
 
-[Configuración de los sistemas](#configuración-de-los-sistemas)
+[Configuración de los sistemas](#system-configuration)
 
-[Seguridad de Base de Datos](#seguridad-de-base-de-datos)
+[Seguridad de Base de Datos](#database-security)
 
-[Manejo de Archivos](#manejo-de-archivos)
+[Gestión de Archivos](#file-management)
 
-[Manejo de Memoria](#manejo-de-memoria)
+[Gestión de Memoria](#memory-management)
 
-[Practicas Generales para la Codificación](#practicas-generales-para-la-codificación)
+[Practicas Generales para la Codificación](#general-coding-practices)
 
-[Apéndice A: Referencias externas](#apéndice-a-referencias-externas)
+[Apéndice A: Referencias externas](#appendix-a-external-references)
 
-[Apéndice B: Glosario](#apéndice-b-glosario)
-
+[Apéndice B: Glosario](#appendix-b-glossary)

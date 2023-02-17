@@ -48,7 +48,7 @@ It is important for web development teams to understand that client side
 controls like client based input validation, hidden fields and interface
 controls (e.g., pull downs and radio buttons), provide little if any
 security benefit. An attacker can use tools like client side web proxies
-(e.g. OWASP WebScarab, Burp) or network packet capture tools (e.g.,
+(e.g. OWASP ZAP, Burp) or network packet capture tools (e.g.,
 WireShark) to analyze application traffic and submit custom built
 requests, bypassing the interface all together. Additionally, Flash,
 Java Applets and other client side objects can be decompiled and
