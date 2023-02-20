@@ -7,28 +7,28 @@ Create the PDF document from directory `zh/cn`:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-CN.pdf \
---pdf-engine=xelatex -r markdown title.pdf.txt \
-00-front-toc/01-front.markdown \
-00-front-toc/02-toc.markdown \
-01-introduction/01-chapter1.markdown \
-03-checklist/01-chapter3.markdown \
-02-overview/01-chapter2.markdown \
-04-appendices/01-references.markdown \
-04-appendices/02-glossary.markdown
+--pdf-engine=xelatex -r markdown title.pdf.yaml \
+01-introduction/01-front.markdown \
+01-introduction/02-toc.markdown \
+01-introduction/05-introduction.markdown \
+02-checklist/05-checklist.markdown \
+03-appendices/03-overview.markdown \
+03-appendices/05-glossary.markdown \
+03-appendices/07-references.markdown
 ```
 
 Similarly create the EBook:
 
 ```
 pandoc -o OWASP_SCP_Quick_Reference_Guide.zh-CN.epub \
---pdf-engine=xelatex -r markdown title.txt \
-00-front-toc/01-front.markdown \
-00-front-toc/02-toc.markdown \
-01-introduction/01-chapter1.markdown \
-03-checklist/01-chapter3.markdown \
-02-overview/01-chapter2.markdown \
-04-appendices/01-references.markdown \
-04-appendices/02-glossary.markdown
+--pdf-engine=xelatex -r markdown title.yaml \
+01-introduction/01-front.markdown \
+01-introduction/02-toc.markdown \
+01-introduction/05-introduction.markdown \
+02-checklist/05-checklist.markdown \
+03-appendices/03-overview.markdown \
+03-appendices/05-glossary.markdown \
+03-appendices/07-references.markdown
 ```
 
 There is a dependency on having a *tex installed that will provide pdflatex for the PDF output.
