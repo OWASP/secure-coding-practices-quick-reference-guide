@@ -1,9 +1,6 @@
-\newpage
 # Table of Contents {#table-of-contents .TOC-Heading}
 
 [Introduction](#introduction)
-
-[Software Security and Risk Principles Overview](#software-security-and-risk-principles-overview)
 
 [Secure Coding Practices Checklist](#secure-coding-practices-checklist)
 
@@ -32,6 +29,8 @@
 [File Management](#file-management)
 
 [Memory Management](#memory-management)
+
+[Software Security and Risk Principles Overview](#software-security-and-risk-principles-overview)
 
 [General Coding Practices](#general-coding-practices)
 

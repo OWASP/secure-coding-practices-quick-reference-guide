@@ -1,9 +1,6 @@
-\newpage
 # Sumário {#table-of-contents .TOC-Heading}
 
 [Introdução](#introdução)
-
-[Princípios Gerais de Segurança em Aplicações e Riscos](#princípios-gerais-de-segurança-em-aplicações-e-riscos)
 
 [Lista de Verificação de Práticas de Programação Segura](#lista-de-verificação-de-práticas-de-programação-segura)
 
@@ -32,6 +29,8 @@
 [Gerenciamento de Arquivos](#gerenciamento-de-arquivos)
 
 [Gerenciamento de Memória](#gerenciamento-de-memória)
+
+[Princípios Gerais de Segurança em Aplicações e Riscos](#princípios-gerais-de-segurança-em-aplicações-e-riscos)
 
 [Práticas Gerais de Codificação](#práticas-gerais-de-codificação)
 
