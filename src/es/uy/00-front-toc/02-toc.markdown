@@ -1,9 +1,6 @@
-\newpage
 #  Índice {#table-of-contents .TOC-Heading}
 
 [Introducción](#introduction)
-
-[Visión General de la Seguridad en el Software y sus Principales Riesgos](#software-security-and-risk-principles-overview)
 
 [Lista de Verificación de Prácticas de Codificación Segura](#secure-coding-practices-checklist)
 
@@ -32,6 +29,8 @@
 [Gestión de Archivos](#file-management)
 
 [Gestión de Memoria](#memory-management)
+
+[Visión General de la Seguridad en el Software y sus Principales Riesgos](#software-security-and-risk-principles-overview)
 
 [Practicas Generales para la Codificación](#general-coding-practices)
 

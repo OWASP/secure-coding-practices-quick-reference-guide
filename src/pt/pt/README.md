@@ -11,8 +11,8 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.pt-PT.pdf \
 00-front-toc/01-front.markdown \
 00-front-toc/02-toc.markdown \
 01-introduction/01-chapter1.markdown \
-02-overview/01-chapter2.markdown \
 03-checklist/01-chapter3.markdown \
+02-overview/01-chapter2.markdown \
 04-appendices/01-references.markdown \
 04-appendices/02-glossary.markdown \
 04-appendices/03-footnotes.markdown
