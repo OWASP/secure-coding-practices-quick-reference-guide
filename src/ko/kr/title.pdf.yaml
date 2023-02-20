@@ -1,8 +1,6 @@
 ---
 language: ko-KR
-title: OWASP 시큐어 코딩 규칙
-subtitle: 참고 가이드
-author: Open Web Application Security Project (OWASP)
+author: Open Worldwide Application Security Project (OWASP)
 version: 2.0.1
 date: 2022 년 12 월
 rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)

@@ -10,6 +10,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.pdf title.pdf.yaml \
 01-introduction/01-front.markdown \
 01-introduction/02-toc.markdown \
 01-introduction/03-credits.markdown \
+01-introduction/04-copyright.markdown \
 01-introduction/05-introduction.markdown \
 02-checklist/05-checklist.markdown \
 03-appendices/03-overview.markdown \
@@ -24,6 +25,7 @@ pandoc -o OWASP_SCP_Quick_Reference_Guide.es-UY.epub title.yaml \
 01-introduction/01-front.markdown \
 01-introduction/02-toc.markdown \
 01-introduction/03-credits.markdown \
+01-introduction/04-copyright.markdown \
 01-introduction/05-introduction.markdown \
 02-checklist/05-checklist.markdown \
 03-appendices/03-overview.markdown \

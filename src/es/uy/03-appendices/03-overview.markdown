@@ -1,6 +1,5 @@
 \newpage
 # Apéndice A: Visión General de la Seguridad en el Software y sus Principales Riesgos {#software-security-and-risk-principles-overview .list-paragraph}
-{#software-security-and-risk-principles-overview .list-paragraph}
 
 La construcción de software seguro requiere una comprensión básica de
 los principios de seguridad. Si bien escapa al objetivo de esta guía una

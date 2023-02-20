@@ -1,8 +1,6 @@
 ---
 language: zh-CN
-title: OWASP 安全编码规范
-subtitle: 快速参考指南
-author: Open Web Application Security Project (OWASP)
+author: Open Worldwide Application Security Project (OWASP)
 version: 中文版 2.0.1
 date: 2022 年 12 月
 rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)
