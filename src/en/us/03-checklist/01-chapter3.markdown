@@ -42,8 +42,7 @@
 
 - [ ]   Validate data length
 
-- [ ]   Validate all input against a \"white\" list of allowed characters,
-    whenever possible
+- [ ]   Validate all input against an \"allowed list\" characters, whenever possible
 
 - [ ]   If any potentially [*hazardous characters*](#Hazardous_Character)
     must be allowed as input, be sure that you implement additional

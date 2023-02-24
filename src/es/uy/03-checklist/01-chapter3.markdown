@@ -1,5 +1,5 @@
 \newpage
-# Lista de Verificación de Prácticas de Codificación Segura
+# Lista de Verificación de Prácticas de Codificación Segura {#secure-coding-practices-checklist .list-paragraph}
 
 ## Validación de entradas
 
@@ -7,55 +7,54 @@
     Por ejemplo: el servidor.
 
 - [ ]   Identificar todas las fuentes de datos y clasificarlos como
-    confiables o no confiables. Validar todos los datos provenientes de
-    fuentes no confiables. Por ejemplo: bases de datos, secuencias de
-    archivo, etc.
+    confiables o no. Validar todos los datos provenientes de
+    fuentes no confiables. Por ejemplo: bases de datos, archivo, etc.
 
 - [ ]   Debería existir una rutina de validación de datos de entrada
     centralizada para la aplicación.
 
-- [ ]   Especificar sets de caracteres apropiados, tales como UTF-8, para
-    todas las fuentes de entrada.
+- [ ]   Para todas las entradas de datos, especificar el juego de
+    caracteres apropiado, tal como UTF-8.
 
-- [ ]   Codificar los datos a un set de caracteres común antes de validar
-    ([*Canonicalización*](#Canonicalizar)).
+- [ ]   Codificar los datos a un juego de caracteres común antes de su 
+    validación ([*Canonicalización*](#Canonicalize)).
 
 - [ ]   Todas las fallas en la validación deber terminar en el rechazo del
     dato de entrada.
 
-- [ ]   Determinar si el sistema soportará sets de caracteres UTF-8
+- [ ]   Determinar si el sistema soportará juegps de caracteres UTF-8
     extendidos y de ser así, validarlos luego de terminada la
     decodificación del UTF-8.
 
 - [ ]   Validar todos los datos brindados por el cliente antes de
     procesarlos, incluyendo todos los parámetros, URLs y contenidos de
-    cabeceras HTTP (por ejemplo nombres de Cookies y valores).
-    Asegurarse de incluir post backs automáticos desde JavaScript, Flash
-    u otro código embebido.
+    encabezados HTTP (por ejemplo nombres de Cookies y valores).
+    Asegurarse de incluir los pedidos automáticos generados por JavaScript,
+    Flash u otro código embebido.
 
-- [ ]   Verificar que los valores de la cabecera tanto en solicitudes como
-    en respuestas contengan solo caracteres ASCII.
+- [ ]   Verificar que los valores de los encabezados, tanto en solicitudes como
+ en respuestas contengan sólo caracteres ASCII.
 
-- [ ]   Validar datos redireccionados Un atacante puede enviar contenido
-    malicioso directamente en el destino de la redirección, eludiendo
-    entonces la lógica de la aplicación y cualquier otra validación
-    realizada antes de la redirección.
+- [ ]   Validar los datos provenientes de redirecciones. Un atacante puede
+    enviar contenido malicioso directamente en el destino de la redirección,
+    evitando la lógica de la aplicación y cualquier otra validación realizada antes de la redirección.
 
-- [ ]   Validar tipos de datos no esperados.
+- [ ]   Validar que los tipos de datos sean los esperados.
 
 - [ ]   Validar rangos de datos.
 
 - [ ]   Validar largos de datos.
 
-- [ ]   Validar toda entrada con una lista "blanca" que contenga una lista
-    de caracteres aceptados, siempre que sea posible.
+- [ ]   Validar toda entrada con una "lista permitida" que contenga los caracteres
+ aceptados, siempre que sea posible.
 
-- [ ]   Si es necesario, permitir el ingreso de algún [*carácter considerado
-    peligroso*](#CaracteresConsideradosPeligrosos), asegúrese de
-    implementar controles adicionales tales como la codificación de la
-    salida, API de seguridad y el registro del uso de tales datos a lo
-    largo de la aplicación. Entre los ejemplos de caracteres peligrosos
-    podemos encontrar: \< \> " ' % ( ) & + \\ / \\' \\".
+- [ ]   Si es necesario permitir el ingreso de [*carácteres 
+    peligrosos*](#Hazardous_Character), implementar controles adicionales
+    tales como la codificación de la salida, utilizar una API de seguridad
+    y el registrar del uso de estos datos a través de la aplicación.
+    Algunos ejemplos de caracteres peligrosos:
+
+> \< \> \" \' % ( ) & + \\ \\\' \\\"
 
 - [ ]   Si su rutina estándar de validación no contempla el ingreso de los
     ejemplos de datos anteriormente ejemplificados, entonces deberán
@@ -523,7 +522,7 @@
 - [ ]   Deshabilite el almacenamiento temporal del lado del cliente de
     páginas que contienen información sensible. "Cache-Control:
     no-store" debería ser utilizado en conjunto con el control en el
-    cabezal de HTTP "Pragma: no-cache", que es menos efectivo, pero
+    encabezado de HTTP "Pragma: no-cache", que es menos efectivo, pero
     mantiene compatibilidad con HTTP/1.0.
 
 - [ ]   La aplicación debe de soportar la eliminación de datos sensibles
@@ -604,7 +603,7 @@
     las diferencias que puedan existir. Por ejemplo: el manejo de
     métodos extendidos de HTTP.
 
-- [ ]   Remover información innecesaria en los cabezales de HTTP de
+- [ ]   Remover información innecesaria en los encabezados de HTTP de
     respuesta referidas al SO, versión del servidor web y frameworks de
     aplicación.
 
