@@ -1,0 +1,19 @@
+---
+lang: ko-KR
+title:
+- type: main
+  text: OWASP 시큐어 코딩 규칙
+- type: subtitle
+  text: 참고 가이드
+creator:
+- role: author
+  text: Open Worldwide Application Security Project (OWASP)
+- role: editor
+  text: Keith Turpin
+version: 2.0.1
+date: 2022 년 12 월
+rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)
+geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
+mainfont: Nanum Myeongjo
+fontsize: 12pt
+...
