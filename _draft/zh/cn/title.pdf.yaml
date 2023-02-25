@@ -1,0 +1,17 @@
+---
+language: zh-CN
+author: Open Worldwide Application Security Project (OWASP)
+version: 中文版 2.0.1
+date: 2022 年 12 月
+rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)
+geometry: "left=2.3cm,right=2cm,top=2cm,bottom=2.5cm"
+mainfont: Songti SC Light
+fontsize: 12pt
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{} 
+    \fancyfoot[LE,LO]{v2.0.1}
+    \fancyfoot[RE,RO]{\thepage}
+...
