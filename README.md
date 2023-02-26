@@ -18,16 +18,16 @@ Downloads for the [latest version][latest] are available for:
 - português (pt-BR & pt-PT)
 - 中文 (zh-CN) 
 
-The guide is maintained by [OWASP][owasp]
-and refer to the [project page][project] for further information.
+The guide is maintained by [OWASP][owasp],
+refer to the [project page][project] for further information.
 
 ### Sections of the Guide
 
 * Introduction
-* Software Security Principles Overview
 * Secure Coding Practices Checklist
-* Links to useful resources
+* Software Security Principles Overview
 * Glossary of important terminology
+* Links to useful resources
 
 ### Other materials
 * [Project pamphlet][flyer]
@@ -53,7 +53,14 @@ create a [pull request][pull-request] and we will review and accept your changes
 
 #### Related Projects
 
-* [Go programming language secure coding practices guide][owaspgoscp], based on the OWASPSecure Coding Practices
+* [Go programming language secure coding practices guide][owaspgoscp]
+* [OWASP developer guide][owaspdevguide]
+
+#### Editors
+
+* [Gerardo Canedo][gerardo] (español)
+* [Paulo Silva] [paulo] (português)
+* [Jon Gadsden][jon] (English)
 
 #### Project leaders
 
@@ -62,6 +69,8 @@ create a [pull request][pull-request] and we will review and accept your changes
 
 [keith]: mailto:Keith.Turpin@owasp.org
 [jon]: mailto:jon.gadsden@owasp.org
+[gerardo]: mailto:gerardo.canedo@owasp.org
+[paulo]: mailto:paulo.silva@owasp.org
 [change]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/issues/new?assignees=&labels=enhancement&template=request.md&title=
 [deck]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/blob/main/materials/Secure_Coding_Practices_Quick_Ref_5.ppt
 [flyer]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/blob/main/materials/Flyer_Secure_Coding_Practices_Quick_Reference_Guide_V2.pdf
@@ -72,5 +81,6 @@ create a [pull request][pull-request] and we will review and accept your changes
 [project]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/
 [pull-request]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/issues/new?assignees=&labels=enhancement&template=request.md&title=
 [revisions]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/blob/main/materials/SCP-QRG_Revisions_History.xls
+[owaspdevguide]: https://owasp.org/www-project-developer-guide/
 [owaspgoscp]: https://owasp.org/www-project-go-secure-coding-practices-guide/
 
