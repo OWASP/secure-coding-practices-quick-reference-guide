@@ -18,7 +18,7 @@ jobs:
       - name: Export to pdf
         uses: docker://pandoc/latex:2.9.2.1
         with:
-          args: -output OWASP_SCP_Quick_Reference_Guide.en-US.pdf _draft/en/us/title.pdf.yaml
+          args: --output OWASP_SCP_Quick_Reference_Guide.en-US.pdf _draft/en/us/title.pdf.yaml _draft/en/us/01-introduction/01-front.markdown
 
       - name: Save pdfs and epubs
         uses: actions/upload-artifact@master
