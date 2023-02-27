@@ -10,6 +10,7 @@ on:
 
 jobs:
   en_us:
+    name: en-us epub and pdf
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
@@ -25,12 +26,12 @@ jobs:
             --output publish/OWASP_SCP_Quick_Reference_Guide.en-US.pdf
             _draft/en/us/title.pdf.yaml
             _draft/en/us/01-introduction/01-front.markdown
-            _draft/en/us/01-introduction/02-toc.markdown \
-            _draft/en/us/01-introduction/04-copyright.markdown \
-            _draft/en/us/01-introduction/05-introduction.markdown \
-            _draft/en/us/02-checklist/05-checklist.markdown \
-            _draft/en/us/03-appendices/03-overview.markdown \
-            _draft/en/us/03-appendices/05-glossary.markdown \
+            _draft/en/us/01-introduction/02-toc.markdown
+            _draft/en/us/01-introduction/04-copyright.markdown
+            _draft/en/us/01-introduction/05-introduction.markdown
+            _draft/en/us/02-checklist/05-checklist.markdown
+            _draft/en/us/03-appendices/03-overview.markdown
+            _draft/en/us/03-appendices/05-glossary.markdown
             _draft/en/us/03-appendices/07-references.markdown
 
       - name: Export to epub
@@ -40,12 +41,12 @@ jobs:
             --output publish/OWASP_SCP_Quick_Reference_Guide.en-US.epub
             _draft/en/us/title.yaml
             _draft/en/us/01-introduction/01-front.markdown
-            _draft/en/us/01-introduction/02-toc.markdown \
-            _draft/en/us/01-introduction/04-copyright.markdown \
-            _draft/en/us/01-introduction/05-introduction.markdown \
-            _draft/en/us/02-checklist/05-checklist.markdown \
-            _draft/en/us/03-appendices/03-overview.markdown \
-            _draft/en/us/03-appendices/05-glossary.markdown \
+            _draft/en/us/01-introduction/02-toc.markdown
+            _draft/en/us/01-introduction/04-copyright.markdown
+            _draft/en/us/01-introduction/05-introduction.markdown
+            _draft/en/us/02-checklist/05-checklist.markdown
+            _draft/en/us/03-appendices/03-overview.markdown
+            _draft/en/us/03-appendices/05-glossary.markdown
             _draft/en/us/03-appendices/07-references.markdown
 
       - name: Save pdfs and epubs
@@ -55,6 +56,7 @@ jobs:
           path: publish
 
   es_uy:
+    name: es-uy epub and pdf
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
@@ -70,13 +72,13 @@ jobs:
             --output publish/OWASP_SCP_Quick_Reference_Guide.es-UY.pdf
             _draft/es/uy/title.pdf.yaml
             _draft/es/uy/01-introduction/01-front.markdown
-            _draft/es/uy/01-introduction/02-toc.markdown \
-            _draft/es/uy/01-introduction/03-credits.markdown \
-            _draft/es/uy/01-introduction/04-copyright.markdown \
-            _draft/es/uy/01-introduction/05-introduction.markdown \
-            _draft/es/uy/02-checklist/05-checklist.markdown \
-            _draft/es/uy/03-appendices/03-overview.markdown \
-            _draft/es/uy/03-appendices/05-glossary.markdown \
+            _draft/es/uy/01-introduction/02-toc.markdown
+            _draft/es/uy/01-introduction/03-credits.markdown
+            _draft/es/uy/01-introduction/04-copyright.markdown
+            _draft/es/uy/01-introduction/05-introduction.markdown
+            _draft/es/uy/02-checklist/05-checklist.markdown
+            _draft/es/uy/03-appendices/03-overview.markdown
+            _draft/es/uy/03-appendices/05-glossary.markdown
             _draft/es/uy/03-appendices/07-references.markdown
 
       - name: Export to epub
@@ -86,13 +88,13 @@ jobs:
             --output publish/OWASP_SCP_Quick_Reference_Guide.es-UY.epub
             _draft/es/uy/title.yaml
             _draft/es/uy/01-introduction/01-front.markdown
-            _draft/es/uy/01-introduction/02-toc.markdown \
-            _draft/es/uy/01-introduction/03-credits.markdown \
-            _draft/es/uy/01-introduction/04-copyright.markdown \
-            _draft/es/uy/01-introduction/05-introduction.markdown \
-            _draft/es/uy/02-checklist/05-checklist.markdown \
-            _draft/es/uy/03-appendices/03-overview.markdown \
-            _draft/es/uy/03-appendices/05-glossary.markdown \
+            _draft/es/uy/01-introduction/02-toc.markdown
+            _draft/es/uy/01-introduction/03-credits.markdown
+            _draft/es/uy/01-introduction/04-copyright.markdown
+            _draft/es/uy/01-introduction/05-introduction.markdown
+            _draft/es/uy/02-checklist/05-checklist.markdown
+            _draft/es/uy/03-appendices/03-overview.markdown
+            _draft/es/uy/03-appendices/05-glossary.markdown
             _draft/es/uy/03-appendices/07-references.markdown
 
       - name: Save pdfs and epubs
