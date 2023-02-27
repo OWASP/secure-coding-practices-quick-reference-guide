@@ -1,0 +1,29 @@
+name: Export to pdf and epub
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  pdf_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v3
+
+      - name: Export to pdf
+        working-directory: en/us
+        uses: docker://pandoc/latex:2.9.2.1
+        with:
+          args: -output OWASP_SCP_Quick_Reference_Guide.en-US.pdf title.pdf.yaml
+
+      - name: Save pdfs and epubs
+        uses: actions/upload-artifact@master
+        with:
+          name: export-docs
+          path: output
+
