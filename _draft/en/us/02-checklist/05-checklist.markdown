@@ -5,9 +5,9 @@
 
 - [ ]   Conduct all input validation on a trusted system (server side not client side)
 
-- [ ]   Identify all data sources and classify them into trusted and untrusted.
+- [ ]   Identify all data sources and classify them into trusted and untrusted
 
-- [ ]   Validate all data from untrusted sources (databases, file streams, etc.)
+- [ ]   Validate all data from untrusted sources (databases, file streams, etc)
 
 - [ ]   Use a centralized input validation routine for the whole application
 
@@ -31,9 +31,9 @@
 
 - [ ]   Validate data length
 
-- [ ]   If any potentially input must be allowed as input then implement additional controls
+- [ ]   If any potentially hazardous input must be allowed then implement additional controls
 
-- [ ]   If the standard validation routine cannot address some inputs then use discrete checks
+- [ ]   If the standard validation routine cannot address some inputs then use extra discrete checks
 
 - [ ]   Utilize canonicalization to address obfuscation attacks
 
@@ -235,12 +235,11 @@
 - [ ]   Enforce application logic flows to comply with business rules
 
 - [ ]   Limit the number of transactions a single user or device can perform
-    in a given period of time. The transactions/time should be above
-    the actual business requirement, but low enough to deter automated
-    attacks
+    in a given period of time, low enough to deter automated attacks
+    but above the actual business requirement
 
 - [ ]   Use the \"referer\" header as a supplemental check only, it should
-    never be the sole authorization check, as it is can be spoofed
+    never be the sole authorization check as it is can be spoofed
 
 - [ ]   If long authenticated sessions are allowed, periodically re-validate
     a user's authorization to ensure that their privileges have not
@@ -343,10 +342,8 @@
     the server from unauthorized access and purge those temporary
     working files a soon as they are no longer required.
 
-- [ ]   Encrypt highly sensitive stored information, like authentication
-    verification data, even on the server side. Always use well vetted
-    algorithms, see \"Cryptographic Practices\" for additional
-    guidance
+- [ ]   Encrypt highly sensitive stored information, such as authentication
+    verification data, even if on the server side
 
 - [ ]   Protect server-side source-code from being downloaded by a user
 
@@ -473,7 +470,7 @@
 - [ ]   Disable any default accounts that are not required to support business requirements
 
 - [ ]   The application should connect to the database with different
-    credentials for every trust distinction (e.g., user, read-only
+    credentials for every trust distinction (for example user, read-only
     user, guest, administrators)
 
 ## File Management {#file-management .list-paragraph}
@@ -531,7 +528,7 @@
 
 - [ ]   Properly free allocated memory upon the completion of functions and at all exit points
 
-- [ ]   Overwrite allocated memory containing sensitive information at all exit points from the function
+- [ ]   Overwrite any sensitive information stored in allocated memory at all exit points from the function
 
 ## General Coding Practices {#general-coding-practices .list-paragraph}
 
