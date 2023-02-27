@@ -1,7 +1,7 @@
 \newpage
 # Secure Coding Practices Checklist {#secure-coding-practices-checklist .list-paragraph}
 
-## Input Validation: {#input-validation .list-paragraph}
+## Input Validation {#input-validation .list-paragraph}
 
 - [ ]   Conduct all input validation on a trusted system (server side not client side)
 
@@ -37,7 +37,7 @@
 
 - [ ]   Utilize canonicalization to address obfuscation attacks
 
-## Output Encoding: {#output-encoding .list-paragraph}
+## Output Encoding {#output-encoding .list-paragraph}
 
 - [ ]   Conduct all output encoding on a trusted system (server side not client side)
 
@@ -53,7 +53,7 @@
 
 - [ ]   Sanitize all output of untrusted data to operating system commands
 
-## Authentication and Password Management: {#authentication-and-password-management .list-paragraph}
+## Authentication and Password Management {#authentication-and-password-management .list-paragraph}
 
 - [ ]   Require authentication for all pages and resources, except those
     specifically intended to be public
@@ -136,7 +136,7 @@
 - [ ]   If using third party code for authentication, inspect the code
     carefully to ensure it is not affected by any malicious code
 
-## Session Management: {#session-management .list-paragraph}
+## Session Management {#session-management .list-paragraph}
 
 - [ ]   Use the server or framework's session management controls. The
     application should recognize only these session identifiers as
@@ -193,7 +193,7 @@
     require client-side scripts within your application to read or set
     a cookie\'s value
 
-## Access Control: {#access-control .list-paragraph}
+## Access Control {#access-control .list-paragraph}
 
 - [ ]   Use only trusted system objects, e.g. server side session objects,
     for making access authorization decisions
@@ -261,7 +261,7 @@
     controlled. This includes identifying access requirements for both
     the data and system resources
 
-## Cryptographic Practices: {#cryptographic-practices .list-paragraph}
+## Cryptographic Practices {#cryptographic-practices .list-paragraph}
 
 - [ ]   All cryptographic functions used to protect secrets from the
     application user must be implemented on a trusted system
@@ -280,7 +280,7 @@
 - [ ]   Establish and utilize a policy and process for how cryptographic
     keys will be managed
 
-## Error Handling and Logging: {#error-handling-and-logging .list-paragraph}
+## Error Handling and Logging {#error-handling-and-logging .list-paragraph}
 
 - [ ]   Do not disclose sensitive information in error responses, including
     system details, session identifiers or account information
@@ -333,7 +333,7 @@
 
 - [ ]   Use a cryptographic hash function to validate log entry integrity
 
-## Data Protection: {#data-protection .list-paragraph}
+## Data Protection {#data-protection .list-paragraph}
 
 - [ ]   Implement least privilege, restrict users to only the functionality,
     data and system information that is required to perform their
@@ -374,7 +374,7 @@
     the server. This includes cached data, temporary files and data
     that should be accessible only by specific system users
 
-## Communication Security: {#communication-security .list-paragraph}
+## Communication Security {#communication-security .list-paragraph}
 
 - [ ]   Implement encryption for the transmission of all sensitive
     information. This should include TLS for protecting the connection
@@ -397,7 +397,7 @@
 
 - [ ]   Filter parameters containing sensitive information from the HTTP referer, when linking to external sites
 
-## System Configuration: {#system-configuration .list-paragraph}
+## System Configuration {#system-configuration .list-paragraph}
 
 - [ ]   Ensure servers, frameworks and system components are running the latest approved version
 
@@ -441,7 +441,7 @@
 - [ ]   Implement a software change control system to manage and record
     changes to the code both in development and production
 
-## Database Security: {#database-security .list-paragraph}
+## Database Security {#database-security .list-paragraph}
 
 - [ ]   Use strongly typed parameterized queries
 
@@ -476,7 +476,7 @@
     credentials for every trust distinction (e.g., user, read-only
     user, guest, administrators)
 
-## File Management: {#file-management .list-paragraph}
+## File Management {#file-management .list-paragraph}
 
 - [ ]   Do not pass user supplied data directly to any dynamic include function
 
@@ -511,7 +511,7 @@
 
 - [ ]   Scan user uploaded files for viruses and malware
 
-## Memory Management: {#memory-management .list-paragraph}
+## Memory Management {#memory-management .list-paragraph}
 
 - [ ]   Utilize input and output controls for untrusted data
 
@@ -533,7 +533,7 @@
 
 - [ ]   Overwrite allocated memory containing sensitive information at all exit points from the function
 
-## General Coding Practices: {#general-coding-practices .list-paragraph}
+## General Coding Practices {#general-coding-practices .list-paragraph}
 
 - [ ]   Use tested and approved managed code rather than creating new unmanaged code for common tasks
 
