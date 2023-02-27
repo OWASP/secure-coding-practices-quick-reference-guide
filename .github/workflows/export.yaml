@@ -9,14 +9,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  pdf_via_pandoc:
+  en_us_pdf:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3
 
+      - name: Create paths
+        run: mkdir -p publish
+
       - name: Export to pdf
-        uses: docker://pandoc/latex:2.9.2.1
+        uses: docker://pandoc/latex:3.1
         with:
           args: >-
             --output publish/OWASP_SCP_Quick_Reference_Guide.en-US.pdf
@@ -28,4 +31,3 @@ jobs:
         with:
           name: export-docs
           path: publish
-
