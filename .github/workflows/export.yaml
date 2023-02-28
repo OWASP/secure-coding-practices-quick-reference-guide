@@ -23,7 +23,7 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output publish/OWASP_SCP_Quick_Reference_Guide.en-US.pdf
+            --output=publish/OWASP_SCP_Quick_Reference_Guide.en-US.pdf
             _draft/en/us/title.pdf.yaml
             _draft/en/us/01-introduction/01-front.markdown
             _draft/en/us/01-introduction/02-toc.markdown
@@ -38,7 +38,7 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output publish/OWASP_SCP_Quick_Reference_Guide.en-US.epub
+            --output=publish/OWASP_SCP_Quick_Reference_Guide.en-US.epub
             _draft/en/us/title.yaml
             _draft/en/us/01-introduction/01-front.markdown
             _draft/en/us/01-introduction/02-toc.markdown
@@ -69,7 +69,7 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output publish/OWASP_SCP_Quick_Reference_Guide.es-UY.pdf
+            --output=publish/OWASP_SCP_Quick_Reference_Guide.es-UY.pdf
             _draft/es/uy/title.pdf.yaml
             _draft/es/uy/01-introduction/01-front.markdown
             _draft/es/uy/01-introduction/02-toc.markdown
@@ -85,7 +85,7 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output publish/OWASP_SCP_Quick_Reference_Guide.es-UY.epub
+            --output=publish/OWASP_SCP_Quick_Reference_Guide.es-UY.epub
             _draft/es/uy/title.yaml
             _draft/es/uy/01-introduction/01-front.markdown
             _draft/es/uy/01-introduction/02-toc.markdown
