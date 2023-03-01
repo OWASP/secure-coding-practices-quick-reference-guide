@@ -8,13 +8,14 @@ on:
       - main
   workflow_dispatch:
 
+# for security reasons the github actions are pinned to specific release versions
 jobs:
   en_us:
     name: en-us epub and pdf
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.3.0
 
       - name: Create paths
         run: mkdir -p publish
@@ -60,7 +61,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.3.0
 
       - name: Create paths
         run: mkdir -p publish
