@@ -1,5 +1,4 @@
-\newpage
-# Apéndice C: Referencias externas {#external-references .list-paragraph}
+# Apéndice C: Referencias externas
 
 ## Referencia citada
 

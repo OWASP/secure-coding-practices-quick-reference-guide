@@ -1,39 +1,39 @@
-# Table of Contents {#table-of-contents .TOC-Heading}
+## Table of Contents
 
-[Introduction](#introduction)
+1. [Introduction](#introduction)
 
-[Secure Coding Practices Checklist](#secure-coding-practices-checklist)
+2. [Secure Coding Practices Checklist](#secure-coding-practices-checklist)
 
-[Input Validation](#input-validation)
+   1. [Input validation](#input-validation)
 
-[Output Encoding](#output-encoding)
+   2. [Output encoding](#output-encoding)
 
-[Authentication and Password Management](#authentication-and-password-management)
+   3. [Authentication and password management](#authentication-and-password-management)
 
-[Session Management](#session-management)
+   4. [Session management](#session-management)
 
-[Access Control](#access-control)
+   5. [Access control](#access-control)
 
-[Cryptographic Practices](#cryptographic-practices)
+   6. [Cryptographic practices](#cryptographic-practices)
 
-[Error Handling and Logging](#error-handling-and-logging)
+   7. [Error handling and logging](#error-handling-and-logging)
 
-[Data Protection](#data-protection)
+   8. [Data protection](#data-protection)
 
-[Communication Security](#communication-security)
+   9. [Communication security](#communication-security)
 
-[System Configuration](#system-configuration)
+   10. [System configuration](#system-configuration)
 
-[Database Security](#database-security)
+   11. [Database security](#database-security)
 
-[File Management](#file-management)
+   12. [File management](#file-management)
 
-[Memory Management](#memory-management)
+   13. [Memory management](#memory-management)
 
-[General Coding Practices](#general-coding-practices)
+   14. [General coding practices](#general-coding-practices)
 
-[Appendix A: Software Security and Risk Principles Overview](#software-security-and-risk-principles-overview)
+[Appendix A: Software Security and Risk Principles Overview](#appendix-a-software-security-and-risk-principles-overview)
 
-[Appendix B: Glossary](#glossary)
+[Appendix B: Glossary](#appendix-b-glossary)
 
-[Appendix C: External References](#external-references)
+[Appendix C: External References](#appendix-c-external-references)

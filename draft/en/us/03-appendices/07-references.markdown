@@ -1,5 +1,4 @@
-\newpage
-# Appendix C: External References {#external-references .list-paragraph}
+# Appendix C: External References
 
 ## Cited References
 

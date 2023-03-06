@@ -1,39 +1,39 @@
-#  Índice {#table-of-contents .TOC-Heading}
+##  Índice
 
-[Introducción](#introduction)
+1. [Introducción](#introducción)
 
-[Lista de Verificación de Prácticas de Codificación Segura](#secure-coding-practices-checklist)
+2. [Lista de Verificación de Prácticas de Codificación Segura](#lista-de-verificación-de-prácticas-de-codificación-segura)
 
-[Validación de entradas](#input-validation)
+   1. [Validación de entradas](#validación-de-entradas)
 
-[Codificación de salidas](#output-encoding)
+   2. [Codificación de salidas](#codificación-de-salidas)
 
-[Gestión de autenticación y contraseñas](#authentication-and-password-management)
+   3. [Gestión de autenticación y contraseñas](#gestión-de-autenticación-y-contraseñas)
 
-[Gestión de sesiones](#session-management)
+   4. [Gestión de sesiones](#gestión-de-sesiones)
 
-[Control de acceso](#access-control)
+   5. [Control de acceso](#control-de-acceso)
 
-[Prácticas critpográficas](#cryptographic-practices)
+   6. [Prácticas critpográficas](#prácticas-critpográficas)
 
-[Gestión de errores y registros (logs)](#error-handling-and-logging)
+   7. [Gestión de errores y registros (logs)](#gestión-de-errores-y-registros-logs)
 
-[Protección de datos](#data-protection)
+   8. [Protección de datos](#protección-de-datos)
 
-[Seguridad en las comunicaciones](#communication-security)
+   9. [Seguridad en las comunicaciones](#seguridad-en-las-comunicaciones)
 
-[Configuración de los sistemas](#system-configuration)
+   10. [Configuración de los sistemas](#configuración-de-los-sistemas)
 
-[Seguridad de Base de Datos](#database-security)
+   11. [Seguridad de Base de Datos](#seguridad-de-base-de-datos)
 
-[Gestión de Archivos](#file-management)
+   12. [Gestión de archivos](#gestión-de-archivos)
 
-[Gestión de Memoria](#memory-management)
+   13. [Gestión de memoria](#gestión-de-memoria)
 
-[Practicas Generales para la Codificación](#general-coding-practices)
+   14. [Practicas generales para la codificación](#practicas-generales-para-la-codificación)
 
-[Apéndice A: Visión General de la Seguridad en el Software y sus Principales Riesgos](#software-security-and-risk-principles-overview)
+[Apéndice A: Visión General de la Seguridad en el Software y sus Principales Riesgos](#apéndice-a-visión-general-de-la-seguridad-en-el-software-y-sus-principales-riesgos)
 
-[Apéndice B: Glosario](#glossary)
+[Apéndice B: Glosario](#apéndice-b-glosario)
 
-[Apéndice C: Referencias externas](#external-references)
+[Apéndice C: Referencias externas](#apéndice-c-referencias-externas)

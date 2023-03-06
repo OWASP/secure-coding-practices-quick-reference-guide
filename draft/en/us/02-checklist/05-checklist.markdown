@@ -1,7 +1,6 @@
-\newpage
-# Secure Coding Practices Checklist {#secure-coding-practices-checklist .list-paragraph}
+# Secure Coding Practices Checklist
 
-## Input Validation {#input-validation .list-paragraph}
+## Input validation
 
 - [ ]   Conduct all input validation on a trusted system (server side not client side)
 
@@ -37,7 +36,7 @@
 
 - [ ]   Utilize canonicalization to address obfuscation attacks
 
-## Output Encoding {#output-encoding .list-paragraph}
+## Output encoding
 
 - [ ]   Conduct all output encoding on a trusted system (server side not client side)
 
@@ -53,7 +52,7 @@
 
 - [ ]   Sanitize all output of untrusted data to operating system commands
 
-## Authentication and Password Management {#authentication-and-password-management .list-paragraph}
+## Authentication and password management
 
 - [ ]   Require authentication for all pages and resources, except those
     specifically intended to be public
@@ -136,7 +135,7 @@
 - [ ]   If using third party code for authentication, inspect the code
     carefully to ensure it is not affected by any malicious code
 
-## Session Management {#session-management .list-paragraph}
+## Session management
 
 - [ ]   Use the server or framework's session management controls. The
     application should recognize only these session identifiers as
@@ -193,7 +192,7 @@
     require client-side scripts within your application to read or set
     a cookie\'s value
 
-## Access Control {#access-control .list-paragraph}
+## Access control
 
 - [ ]   Use only trusted system objects, e.g. server side session objects,
     for making access authorization decisions
@@ -260,7 +259,7 @@
     controlled. This includes identifying access requirements for both
     the data and system resources
 
-## Cryptographic Practices {#cryptographic-practices .list-paragraph}
+## Cryptographic practices
 
 - [ ]   All cryptographic functions used to protect secrets from the
     application user must be implemented on a trusted system
@@ -279,7 +278,7 @@
 - [ ]   Establish and utilize a policy and process for how cryptographic
     keys will be managed
 
-## Error Handling and Logging {#error-handling-and-logging .list-paragraph}
+## Error handling and logging
 
 - [ ]   Do not disclose sensitive information in error responses, including
     system details, session identifiers or account information
@@ -332,7 +331,7 @@
 
 - [ ]   Use a cryptographic hash function to validate log entry integrity
 
-## Data Protection {#data-protection .list-paragraph}
+## Data protection
 
 - [ ]   Implement least privilege, restrict users to only the functionality,
     data and system information that is required to perform their
@@ -371,7 +370,7 @@
     the server. This includes cached data, temporary files and data
     that should be accessible only by specific system users
 
-## Communication Security {#communication-security .list-paragraph}
+## Communication security
 
 - [ ]   Implement encryption for the transmission of all sensitive
     information. This should include TLS for protecting the connection
@@ -394,7 +393,7 @@
 
 - [ ]   Filter parameters containing sensitive information from the HTTP referer, when linking to external sites
 
-## System Configuration {#system-configuration .list-paragraph}
+## System configuration
 
 - [ ]   Ensure servers, frameworks and system components are running the latest approved version
 
@@ -438,7 +437,7 @@
 - [ ]   Implement a software change control system to manage and record
     changes to the code both in development and production
 
-## Database Security {#database-security .list-paragraph}
+## Database security
 
 - [ ]   Use strongly typed parameterized queries
 
@@ -473,7 +472,7 @@
     credentials for every trust distinction (for example user, read-only
     user, guest, administrators)
 
-## File Management {#file-management .list-paragraph}
+## File management
 
 - [ ]   Do not pass user supplied data directly to any dynamic include function
 
@@ -508,7 +507,7 @@
 
 - [ ]   Scan user uploaded files for viruses and malware
 
-## Memory Management {#memory-management .list-paragraph}
+## Memory management
 
 - [ ]   Utilize input and output controls for untrusted data
 
@@ -530,7 +529,7 @@
 
 - [ ]   Overwrite any sensitive information stored in allocated memory at all exit points from the function
 
-## General Coding Practices {#general-coding-practices .list-paragraph}
+## General coding practices
 
 - [ ]   Use tested and approved managed code rather than creating new unmanaged code for common tasks
 
@@ -565,3 +564,5 @@
     determine business necessity and validate safe functionality
 
 - [ ]   Implement safe updating using encrypted channels
+
+\newpage
