@@ -1,28 +1,24 @@
-\newpage
-# Appendix A: Software Security and Risk Principles Overview {#software-security-and-risk-principles-overview .list-paragraph}
+# Appendix A: Software Security and Risk Principles Overview
 
 Building secure software requires a basic understanding of security
 principles. While a comprehensive review of security principles is
 beyond the scope of this guide, a quick overview is provided.
 
 The goal of software security is to maintain the
-*[confidentiality](#Confidentiality), [integrity](#Integrity)*, and
-[*availability*](#Availability) of information resources in order to
-enable successful business operations. This goal is accomplished through
-the implementation of [*security controls*](#Security_Controls). This
-guide focuses on the technical controls specific to
-[*mitigating*](#Mitigate) the occurrence of common software
-[*vulnerabilities*](#Vulnerability). While the primary focus is web
-applications and their supporting infrastructure, most of the guidance
-can be applied to any software deployment platform.
+confidentiality, integrity, and availability of information resources in order to
+enable successful business operations.
+This goal is accomplished through the implementation of security controls.
+This guide focuses on the technical controls specific to
+mitigating the occurrence of common software vulnerabilities.
+While the primary focus is web applications and their supporting infrastructure,
+most of the guidance can be applied to any software deployment platform.
 
 It is helpful to understand what is meant by risk, in order to protect
 the business from unacceptable risks associated with its reliance on
 software. Risk is a combination of factors that threaten the success of
-the business. This can be described conceptually as follows: a [*threat
-agent*](#Threat_Agent) interacts with a [*system*](#System), which may
-have a *[vulnerability](#Vulnerability)* that can be
-[*exploited*](#Exploit) in order to cause an [*impact*](#Impact). While
+the business. This can be described conceptually as follows: a threat
+agent interacts with a system, which may have a vulnerability that can be
+exploited in order to cause an impact. While
 this may seem like an abstract concept, think of it this way: a car
 burglar (threat agent) goes through a parking lot checking cars (the
 system) for unlocked doors (the vulnerability) and when they find one,
@@ -84,3 +80,5 @@ all of the following:
 - The user\'s system
 
 - Other software that the user interacts with
+
+\newpage

@@ -1,5 +1,4 @@
-\newpage
-# Introduction {#introduction .list-paragraph}
+# Introduction
 
 This technology agnostic document defines a set of general software
 security coding practices, in a checklist format, that can be integrated
@@ -29,8 +28,7 @@ members of the development team should have the responsibility, adequate
 training, tools and resources to validate that the design and
 implementation of the entire system is secure.
 
-A glossary of important terms in this document, including section
-headings and words shown in *italics*, is provided in appendix B.
+A glossary of important terms in this document is provided in appendix B.
 
 Guidance on implementing a secure software development framework is
 beyond the scope of this paper, however the following additional general
@@ -62,3 +60,5 @@ practices and resources are recommended:
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
 [guide]: https://owasp.org/www-project-developer-guide/
+
+\newpage

@@ -1,5 +1,4 @@
-\newpage
-# Introducción {#introduction .list-paragraph}
+# Introducción
 
 El presente documento define un conjunto de prácticas comunes de
 codificación de software, tecnológicamente agnósticas, en formato de
@@ -66,3 +65,5 @@ seguro, sin embargo, se recomiendan las siguientes prácticas y recursos:
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
 [guide]: https://owasp.org/www-project-developer-guide/
+
+\newpage

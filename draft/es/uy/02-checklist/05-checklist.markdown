@@ -1,4 +1,3 @@
-\newpage
 # Lista de Verificación de Prácticas de Codificación Segura
 
 ## Validación de entradas
@@ -96,7 +95,7 @@
 - [ ]   [*Sanitice*](#Sanitizar) todas las salidas de datos no confiables
     hacia un comando del sistema operativo.
 
-## Administración de autenticación y contraseñas
+## Gestión de autenticación y contraseñas
 
 - [ ]   Requerir autenticación para todos los recursos y páginas excepto
     aquellas específicamente clasificadas como públicas.
@@ -236,7 +235,7 @@
     inspeccionarlo minuciosamente para asegurar que no se encuentre
     afectado por cualquier código malicioso.
 
-## Administración de sesiones
+## Gestión de sesiones]
 
 - [ ]   Utilizar los controles del servidor o del framework para la
     administración de sesiones. La aplicación solo debe reconocer estos
@@ -309,7 +308,7 @@
     requiera específicamente scripts del lado del cliente en la
     aplicación, para leer o configurar una cookie.
 
-## Control de Acceso
+## Control de acceso
 
 - [ ]   Utilizar únicamente objetos confiables del sistema. Por ejemplo:
     objetos de sesión del servidor para la toma de decisiones de
@@ -391,7 +390,7 @@
     controlarlos. Esto incluye la identificación de accesos requeridos
     tanto para los datos como para los sistemas.
 
-## Prácticas Critpográficas
+## Prácticas critpográficas
 
 - [ ]   Todas las funciones de criptografía de la aplicación deben ser
     implementadas en sistemas de confiables (por ejemplo: el servidor).
@@ -413,7 +412,7 @@
 - [ ]   Establecer y utilizar una política y un proceso de cómo manejar las
     claves criptográficas.
 
-## Manejo de errores y Logs
+## Gestión de errores y registros (logs)
 
 - [ ]   No difundir información sensible en respuestas de error, incluyendo
     detalles del sistema, identificadores de sesión o información de la
@@ -673,7 +672,7 @@
     diferentes para cada nivel de confianza, por ejemplo: usuarios,
     usuarios solo lectura, invitados, administrador.
 
-## Manejo de Archivos
+## Gestión de archivos
 
 - [ ]   No utilizar directamente información provista por el usuario en
     ninguna operación dinámica.
@@ -725,7 +724,7 @@
 - [ ]   Revise los archivos transferidos por los clientes en busca de virus
     y malware.
 
-## Manejo de Memoria
+## Gestión de memoria
 
 - [ ]   Utilice controles en la entrada y la salida de información no
     confiable.
@@ -757,7 +756,7 @@
 - [ ]   Libere adecuadamente la memoria previa a la salida de una función y
     de todos los puntos de finalización de la aplicación.
 
-## Practicas Generales para la Codificación
+## Practicas generales para la codificación
 
 - [ ]   Para las tareas habituales, utilice código probado y verificado en
     lugar de crear códigos específicos.
@@ -814,3 +813,5 @@
     descarga la aplicación verifique dichas firma. Utilizar canales
     encriptados para las transferencias de código desde el servidor de
     actualización.
+
+\newpage

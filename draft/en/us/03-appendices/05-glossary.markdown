@@ -1,5 +1,4 @@
-\newpage
-# Appendix B: Glossary {#glossary .list-paragraph}
+# Appendix B: Glossary
 
 **Abuse case:** Describes the intentional and
   unintentional misuses of the software. Abuse cases should challenge the
@@ -242,3 +241,5 @@
   allowing further system interaction.
 
 **Vulnerability:** A weakness that makes the system susceptible to attack or damage.
+
+\newpage
