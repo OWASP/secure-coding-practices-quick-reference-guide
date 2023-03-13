@@ -228,7 +228,7 @@ encoding or other forms of obfuscation attacks)
     or connection
 
 - [ ]   Logout functionality should be available from all pages protected by
-    authorization
+    authentication
 
 - [ ]   Establish a session inactivity timeout that is as short as possible,
     based on balancing risk and business functional requirements. In
