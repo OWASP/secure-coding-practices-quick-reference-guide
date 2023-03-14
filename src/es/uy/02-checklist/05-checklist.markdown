@@ -426,7 +426,7 @@ sesión y establecer una nueva luego de un login exitoso.
 - [ ]   Liberar correctamente la memoria asignada cuando se producen
     condiciones de error.
 
-ACA - [ ]   La lógica de tratamiento de errores asociada a los controles de
+- [ ]   La lógica de tratamiento de errores asociada a los controles de
     seguridad debe denegar el acceso por defecto.
 
 - [ ]   Todos los controles de registro deben estar implementados en sistemas
@@ -531,7 +531,7 @@ ACA - [ ]   La lógica de tratamiento de errores asociada a los controles de
 
 ## Seguridad en las comunicaciones: {#communication-security .list-paragraph}
 
-ACA - [ ]   Implemente cifrado para todas las transmisiones de información
+- [ ]   Implemente cifrado para todas las transmisiones de información
     sensible. Esto debe incluir TLS para proteger la conexión y se
     puede combinar con cifrado discreto de archivos sensibles
     en conexiones que no estén basadas en HTTP.
