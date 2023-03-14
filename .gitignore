@@ -24,3 +24,9 @@ _site
 # ignore IntelliJ IDEA files
 .idea/
 
+# keep the README files
+!README.md
+
+# keep the .github templates
+!.github/**/*
+

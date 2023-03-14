@@ -1,0 +1,35 @@
+name: Housekeeping
+on:
+  # Run daily at 7:00
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+# for security reasons the github actions are pinned to specific release versions
+jobs:
+  housekeeping:
+    name: housekeeping
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Delete stale workflow runs
+        uses: Mattraks/delete-workflow-runs@v2.0.3
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 60
+          keep_minimum_runs: 3
+
+
+  link_checker:
+    name: link checker
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.3.0
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
