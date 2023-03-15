@@ -42,8 +42,7 @@
 
 - [ ]   Validate data length
 
-- [ ]   Validate all input against a \"white\" list of allowed characters,
-    whenever possible
+- [ ]   Validate all input against an \"allowed list\" characters, whenever possible
 
 - [ ]   If any potentially [*hazardous characters*](#Hazardous_Character)
     must be allowed as input, be sure that you implement additional
@@ -229,7 +228,7 @@ encoding or other forms of obfuscation attacks)
     or connection
 
 - [ ]   Logout functionality should be available from all pages protected by
-    authorization
+    authentication
 
 - [ ]   Establish a session inactivity timeout that is as short as possible,
     based on balancing risk and business functional requirements. In

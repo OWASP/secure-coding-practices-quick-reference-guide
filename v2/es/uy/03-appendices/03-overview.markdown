@@ -79,12 +79,12 @@ Es importante además entender que las vulnerabilidades del software
 
 - El software y su información asociada.
 
-- Los sistemas operativos de los servidores asociados.
+- Los sistemas operativos de los servidores que le dan soporte.
 
 - La base de datos del backend.
 
 - Otras aplicaciones en el entorno compartido.
 
-- El sistema del usuario final.
+- El sistema informático del usuario final.
 
 - Otro software con el que interactúe el usuario.
