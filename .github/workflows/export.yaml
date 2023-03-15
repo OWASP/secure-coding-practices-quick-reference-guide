@@ -10,6 +10,19 @@ on:
 
 # for security reasons the github actions are pinned to specific release versions
 jobs:
+  link_checker:
+    name: link checker
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3.3.0
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
   en_us:
     name: en-us epub and pdf
     runs-on: ubuntu-22.04
