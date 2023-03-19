@@ -3,21 +3,20 @@
 
 La construcción de software seguro requiere una comprensión básica de
 los principios de seguridad. Si bien escapa al objetivo de esta guía una
-revisión exhaustiva de estos principios, se proporciona una visión general y
- rápida de los mismos.
+revisión exhaustiva de estos, se proporciona una visión general de los mismos.
 
-El objetivo de la seguridad en el software es el de mantener la
+La meta de la seguridad en el software es el de mantener la
 [*confidencialidad*](#Confidentiality), [*integridad*](#Integrity) y
-[*disponibilidad*](#Availability) de los avtivos de información de
-modo de permitir el desarrollo exitoso de las operaciones del negocios. Este
- objetivo se consigue con la implementación de [*controles de seguridad*](#Security_Controls).
+[*disponibilidad*](#Availability) de los activos de información de
+modo de permitir el desarrollo exitoso de las operaciones del negocios. Esta
+ meta se consigue con la implementación de [*controles de seguridad*](#Security_Controls).
 La presente guía pone foco en los controles técnicos específicos para
- [*mitigar*](#Mitigate) la presencia de [*vulnerabilidades*](#Vulnerability)
- de ocurrencia frecuentes en el software. Si bien el foco principal está en
+ [*mitigar*](#Mitigate) la ocurrencia de [*vulnerabilidades*](#Vulnerability)
+    frecuentes en el software. Si bien el foco principal está en
  las aplicaciones web y la infraestructura que las soporta, la mayoría de los
  lineamientos pueden aplicarse en cualquier plataforma de desarrollo de software.
 
-Es de gran utilidad comprender qué se entiende por un riesgo, con el fin
+Es de gran utilidad comprender qué se entiende por riesgo, con el fin
 de proteger al negocio de riesgos inaceptables derivados de su
 dependencia con el software. Un riesgo es una combinación de factores que
 amenazan el correcto funcionamiento del negocio.
@@ -29,12 +28,12 @@ Puede ser definido conceptualmente como: un [*agente amenazante*](#Threat_Agent)
  de autos (agente amenazante) recorre un estacionamiento verificando
  los vehículos (el sistema) en busca de una
  puerta sin trabar (la vulnerabilidad) y, cuando encuentra una, la abre
- (situación a ser explotada) y toma algo de dentro del mismo (el impacto).
+ (explotación) y toma algo de dentro del mismo (el impacto).
  Todos estos factores juegan un rol en el desarrollo de software seguro.
 
 Existe una diferencia fundamental entre el enfoque que adopta un equipo
 de desarrollo y el que toma alguien que está atacando la aplicación. Un equipo
- de desarrollo adopta un enfoque basado en lo que tiene intenciones de realizar.
+ de desarrollo adopta un enfoque basado en lo que tiene intenciones que el sistema realice.
  En otras palabras, están diseñando una aplicación para que realice tareas
  específicas basándose en los requerimientos funcionales y casos de uso que han
  sido documentados. Un atacante, por otra parte, está más interesado en lo que
