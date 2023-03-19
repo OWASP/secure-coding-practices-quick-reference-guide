@@ -14,7 +14,7 @@ jobs:
     name: link checker
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3.3.0
+      - uses: actions/checkout@v3.4.0
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.6.1
@@ -26,9 +26,10 @@ jobs:
   en_us:
     name: en-us epub and pdf
     runs-on: ubuntu-22.04
+    needs: [link_checker]
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3.4.0
 
       - name: Create paths
         run: mkdir -p publish
@@ -72,9 +73,10 @@ jobs:
   es_uy:
     name: es-uy epub and pdf
     runs-on: ubuntu-22.04
+    needs: [link_checker]
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3.4.0
 
       - name: Create paths
         run: mkdir -p publish
