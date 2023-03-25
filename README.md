@@ -1,3 +1,12 @@
+## Note that this repository is in the process of being migrated
+OWASP is moving to a 'web first' philosphy and moving away from downloads.
+We will still be providing PDF and ePub, but the emphasis will be on providing web page documents.
+
+Part of this migration will be the use of the [OWASP project page][owaspscpqrg]
+as the source of the document.
+Version 2.0 of this repo will become `stable` in the [OWASP project pages][owaspscpqrg]
+and `draft` will be work-in-progress.
+
 ### Welcome to the Secure Coding Practices Quick Reference Guide Project
 
 The OWASP Secure Coding Practices Quick Reference Guide is a technology agnostic
@@ -59,7 +68,7 @@ create a [pull request][pull-request] and we will review and accept your changes
 #### Editors
 
 * [Gerardo Canedo][gerardo] (español)
-* [Paulo Silva] [paulo] (português)
+* [Paulo Silva][paulo] (português)
 * [Jon Gadsden][jon] (English)
 
 #### Project leaders
@@ -83,4 +92,5 @@ create a [pull request][pull-request] and we will review and accept your changes
 [revisions]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide/blob/main/materials/SCP-QRG_Revisions_History.xls
 [owaspdevguide]: https://owasp.org/www-project-developer-guide/
 [owaspgoscp]: https://owasp.org/www-project-go-secure-coding-practices-guide/
+[owaspscpqrg]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/
 
