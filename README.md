@@ -4,8 +4,10 @@ We will still be providing PDF and ePub, but the emphasis will be on providing w
 
 Part of this migration will be the use of the [OWASP project page][owaspscpqrg]
 as the source of the document.
-Version 2.0 of this repo will become `stable` in the [OWASP project pages][owaspscpqrg]
-and `draft` will be work-in-progress.
+Version 2.0 of [this repo][this] will become `stable` in the [OWASP project pages][owaspscpqrg]
+and work-in-progress will be under `draft` in the [OWASP project pages][owaspscpqrg].
+
+When the migration is complete [this repo][this] will be archived as Read Only.
 
 ### Welcome to the Secure Coding Practices Quick Reference Guide Project
 
@@ -93,4 +95,5 @@ create a [pull request][pull-request] and we will review and accept your changes
 [owaspdevguide]: https://owasp.org/www-project-developer-guide/
 [owaspgoscp]: https://owasp.org/www-project-go-secure-coding-practices-guide/
 [owaspscpqrg]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/
+[this]: https://github.com/OWASP/secure-coding-practices-quick-reference-guide
 
