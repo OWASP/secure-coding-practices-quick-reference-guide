@@ -1,3 +1,16 @@
+## Archived
+
+*This repository is now archived*.
+You can still access the downloads but it is read only, the content having been moved to
+the [OWASP project pages](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide).
+
+The [latest stable Spanish language version](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/)
+is available on the OWASP project pages along with
+the [latest stable English language version](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-es/).
+
+There is also a [work in progress English language version](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/draft-en/),
+which have all been migrated to the [OWASP project pages](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide).
+
 ## Note that this repository is in the process of being migrated
 OWASP is moving to a 'web first' philosphy and moving away from downloads.
 We will still be providing PDF and ePub, but the emphasis will be on providing web page documents.
